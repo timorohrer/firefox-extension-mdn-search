@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "MDN Docs Search",
+  "short_name": "mdn_docs_search",
+  "description": "Adds MDN docs as a search engine.",
+  "version": "1.0.1",
+  "icons": {
+    "16": "logo.png",
+    "64": "logo.png",
+    "256": "logo.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "MDN docs",
+      "keyword": "mdn",
+      "favicon_url": "https://developer.mozilla.org/favicon.ico",
+      "search_url": "https://developer.mozilla.org/en-US/search?q={searchTerms}"
+    }
+  },
+  "author": "timorohrer",
+  "homepage_url": "https://github.com/timorohrer/firefox-extension-mdn-search"
+}
